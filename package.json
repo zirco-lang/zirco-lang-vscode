@@ -1,0 +1,39 @@
+{
+    "name": "zirco-lang",
+    "displayName": "The Zirco Programming Language",
+    "description": "Syntax highlighting for Zirco Lang",
+    "version": "0.1.0",
+    "repository": {
+        "url": "https://github.com/zirco-lang/zirco-lang-vscode"
+    },
+    "publisher": "zirco",
+    "engines": {
+        "vscode": "^1.106.1"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "zirco",
+                "aliases": [
+                    "Zirco",
+                    "zirco"
+                ],
+                "extensions": [
+                    ".zr",
+                    ".zh"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "zirco",
+                "scopeName": "source.zirco",
+                "path": "./syntaxes/zirco.tmLanguage.json"
+            }
+        ]
+    }
+}
