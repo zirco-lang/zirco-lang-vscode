@@ -112,7 +112,7 @@
                 },
                 {
                     "name": "keyword.other.zirco",
-                    "match": "\\b(fn|let|type|struct|union|enum|as|sizeof|new)\\b"
+                    "match": "\\b(fn|let|const|type|struct|union|enum|as|sizeof|new)\\b"
                 },
                 {
                     "name": "storage.type.zirco",
